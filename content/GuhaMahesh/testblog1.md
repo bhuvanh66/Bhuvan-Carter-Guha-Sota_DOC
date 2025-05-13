@@ -16,4 +16,4 @@ showAuthorBadges: false
 
 ### please read this
 
-there is something to be said about guha. he is the goat. he is just goated. i love guha.
+Guha Mahesh is an 18 year old from Houston, Texas.
