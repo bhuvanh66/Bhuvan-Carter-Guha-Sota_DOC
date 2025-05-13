@@ -6,7 +6,7 @@ description: "Bhuvan is so cool"
 slug: "Bhuvan"   # if you use, needs to be different for every post
 tags: ["authors", "config", "docs"]
 authors:
-  - "Bhuvan"
+  - "Bhuvan Hospet"
 showAuthorsBadges : false
 ---
 
