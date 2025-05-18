@@ -1,5 +1,5 @@
 ---
-title: "About Carter Vaargas"
+title: "About Carter Vargas"
 date: 2025-05-13
 draft: false
 description: "Carter Vargas "
