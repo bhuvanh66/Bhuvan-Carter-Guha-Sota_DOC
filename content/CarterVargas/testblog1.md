@@ -1,16 +1,16 @@
 ---
-title: "About Carter Vargas"
+title: "Week 1 in Leuven"
 date: 2025-05-13
 draft: false
 description: "Carter Vargas "
-slug: "post1"   # if you use, needs to be different for every post
+slug: "post1"   # if you use, needs to be different for eery post
 tags: ["authors", "config", "docs"]
 authors:
   - "cartervargas"
 showAuthorsBadges : false
 ---
 
-# Week 1 in Leuven
+# What I have Learned So Far
 
 Already one week into the program I have already learned about many topics regarding data in international politics through my classes, guest speakers from KU Leuven, and visits to institutions like NATO and the European Parliament. Accompanied with this I’ve also had fun taking trips to the Atomium and exploring the cities of Brussels and Bruge.
 
