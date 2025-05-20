@@ -15,7 +15,7 @@ showAuthorsBadges : false
 
 Hi, my name is **Bhuvan Hospet** and I’m excited to tell you about my first week in Belgium! As someone who has never traveled to Europe, this experience has enlightened me about European politics and culture. 
 
- ![image](https://ibb.co/Nd240mh5)
+ ![parliamentimage](https://i.ibb.co/Xrxwn3B1/9df215f5-5669-46c6-b477-4cc38904c1d2.jpg)
 
 During this trip, I was particularly interested in how the *EU Parliament* allows for a representative government of many different cultures and languages to function at such a large scale. I had never considered the challenges that the Parliament would have in unifying all of the different cultures to provide their perspectives. I enjoyed hearing about the translators and how the Parliament prioritizes cooperation and compromise to pass legislation that is mutually beneficial. 
 
