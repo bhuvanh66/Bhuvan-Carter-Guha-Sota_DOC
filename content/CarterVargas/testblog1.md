@@ -3,7 +3,7 @@ title: "Week 1 in Leuven"
 date: 2025-05-13
 draft: false
 description: "Carter Vargas "
-slug: "post1"   # if you use, needs to be different for every post
+slug: "post1"   # if you use, needs to be different for eery post
 tags: ["authors", "config", "docs"]
 authors:
   - "cartervargas"
