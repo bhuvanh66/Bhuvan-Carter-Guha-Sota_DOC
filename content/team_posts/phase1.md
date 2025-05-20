@@ -6,7 +6,7 @@ description: "Our Idea"
 slug: "phase1post"
 tags: ["project", "Setup"]
 authors:
-  - "eric_gerber"
+  - "guhamahesh"
   - "mark_fontenot"
 showAuthorsBadges: false
 ---
