@@ -44,7 +44,7 @@ So far, we have been able to retreive API data regarding the following statistic
   - USD to British Pound
     We plan on using the USD conversion rates to find the respective historical EU exchange rates
     ![image](https://i.ibb.co/Pvf19JB2/Screenshot-2025-05-20-at-4-22-23-PM.png)
-- The main source of financial aid (categorical)
+- The main source of money for Foreign Aid (categorical)
   ![image](https://i.ibb.co/twzFWy3K/foreign-Aid-Fin-Source.png)
 
   We also plan on retreiving data regarding **tariffs\* and current **wars** and **conflict\*\*
