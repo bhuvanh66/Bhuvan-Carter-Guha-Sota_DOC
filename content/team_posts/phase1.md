@@ -46,31 +46,37 @@ Dillon is a middle-class father of two currently living in Madrid, Spain. As he 
 **Gerrard Goossens**  
 Age: 55  
 Location: Brussels, Belgium  
-Occupation: Executive for European Shipping Department, Aligurta  
+Occupation: Executive for European Shipping Department, Aligurta
 
-Gerrard is an Executive for the European Shipping Department of Aligurta, a Chinese company, and is interested in Euro/Yuan exchange rates. He is in the EU and handles shipments from warehouses in China. 
+Gerrard is an Executive for the European Shipping Department of Aligurta, a Chinese company, and is interested in Euro/Yuan exchange rates. He is in the EU and handles shipments from warehouses in China.
 
-- As a Domestic Importer, I want to predict the best timing to make bulk shipments to the EU by looking at Euro/Yuan price fluctuation given some major current events. 
-- As a Domestic Importer, I want to avoid selling goods in a non-lucrative area, so I want to figure out if it is better to sell goods in the EU or in China. 
-- As a Domestic Importer, I want to track tariffs in parallel with exchange rates because they both affect shipping costs. 
-- As a Company Executive, I want to consider interest rates to borrow money in the most effective way and ship more products to the EU. 
+- As a Domestic Importer, I want to predict the best timing to make bulk shipments to the EU by looking at Euro/Yuan price fluctuation given some major current events.
+- As a Domestic Importer, I want to avoid selling goods in a non-lucrative area, so I want to figure out if it is better to sell goods in the EU or in China.
+- As a Domestic Importer, I want to track tariffs in parallel with exchange rates because they both affect shipping costs.
+- As a Company Executive, I want to consider interest rates to borrow money in the most effective way and ship more products to the EU.
 
 ## Candidate Data Sources
 
 So far, we have been able to retreive API data regarding the following statistics from FRED across a large span of time:
 
 - Three different types of interest rates that the EU uses for Monetary Policy (numerical)
+  With these sources, we can train the model to predict exchange rates based off **EU monetary policy**
+
   - The Main Refinancing Rate
   - The Deposit Facility Rate
   - The Marginal Facility Rate
+
     ![image](https://i.ibb.co/dwTqw4V4/Screenshot-2025-05-20-at-4-16-29-PM.png)
+
 - Conversion Rates Between Currencies (numerical)
+  These sources will essentially give us the labels for the AI data so that we can actually train the model
   - USD to Chinese Yuan
   - USD to Euro
   - USD to British Pound
     We plan on using the USD conversion rates to find the respective historical EU exchange rates
     ![image](https://i.ibb.co/Pvf19JB2/Screenshot-2025-05-20-at-4-22-23-PM.png)
 - The main source of money for Foreign Aid (categorical)
+  We plan on training the AI to check how the source of the foreign aid that EU provides affects currency exchange as well
   ![image](https://i.ibb.co/twzFWy3K/foreign-Aid-Fin-Source.png)
 
-  We also plan on retreiving data regarding **tariffs** and current **wars** and **conflict**
+  We also plan on retreiving data regarding **tariffs** and current **wars** and **conflict** as these are very notable factors that affect exchange rates
