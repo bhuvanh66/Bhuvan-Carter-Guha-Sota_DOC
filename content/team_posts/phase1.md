@@ -21,7 +21,7 @@ Currencies across the world are constantly fluctuating as a result of inflation,
 
 ## Personas
 
-**Andrew Thornton**
+**Andrew Thornton**  
 Age: 39  
 Occupation: Foreign Investor  
 Location: United Kingdom
