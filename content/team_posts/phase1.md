@@ -31,7 +31,7 @@ Location: United Kingdom
 - As a foreign investor, I want to know how changing interest rates will affect the economies of foreign countries so I can predict the demand of goods in these countries.
 - As a foreign investor, I want a general idea of which currencies will prevail the strongest or fall the weakest so in the coming months I am prepared for these changes.
 
-**Dillon Brooks**
+**Dillon Brooks**  
 Age: 29  
 Location: Madrid, Spain  
 Occupation: Blue-Collar Worker
@@ -43,10 +43,10 @@ Dillon is a middle-class father of two currently living in Madrid, Spain. As he 
 - As a potential migrant, I want to see how major events, such as war or financial crises, historically affected currency value, so I can account for risks before making long-term plans.
 - As a potential migrant, I want to track how changes in interest rates might affect the cost of living in Europe, so I can plan my budget more accurately.
 
-**Gerrard Goossens**
-Age: 55
-Location: Brussels, Belgium 
-Occupation: Executive for European Shipping Department, Aligurta 
+**Gerrard Goossens**  
+Age: 55  
+Location: Brussels, Belgium  
+Occupation: Executive for European Shipping Department, Aligurta  
 
 Gerrard is an Executive for the European Shipping Department of Aligurta, a Chinese company, and is interested in Euro/Yuan exchange rates. He is in the EU and handles shipments from warehouses in China. 
 
