@@ -43,7 +43,17 @@ Dillon is a middle-class father of two currently living in Madrid, Spain. As he 
 - As a potential migrant, I want to see how major events, such as war or financial crises, historically affected currency value, so I can account for risks before making long-term plans.
 - As a potential migrant, I want to track how changes in interest rates might affect the cost of living in Europe, so I can plan my budget more accurately.
 
--add personas-
+**Gerrard Goossens**
+Age: 55
+Location: Brussels, Belgium 
+Occupation: Executive for European Shipping Department, Aligurta 
+
+Gerrard is an Executive for the European Shipping Department of Aligurta, a Chinese company, and is interested in Euro/Yuan exchange rates. He is in the EU and handles shipments from warehouses in China. 
+
+- As a Domestic Importer, I want to predict the best timing to make bulk shipments to the EU by looking at Euro/Yuan price fluctuation given some major current events. 
+- As a Domestic Importer, I want to avoid selling goods in a non-lucrative area, so I want to figure out if it is better to sell goods in the EU or in China. 
+- As a Domestic Importer, I want to track tariffs in parallel with exchange rates because they both affect shipping costs. 
+- As a Company Executive, I want to consider interest rates to borrow money in the most effective way and ship more products to the EU. 
 
 ## Candidate Data Sources
 
