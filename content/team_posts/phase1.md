@@ -6,8 +6,10 @@ description: "Our Idea"
 slug: "phase1post"
 tags: ["project", "Setup"]
 authors:
-  - "guhamahesh"
-  - "mark_fontenot"
+  - "Guha Mahesh"
+  - "Bhuvan Hospet"
+  - "Sota Shimizu"
+  - "Carter Vargas"
 showAuthorsBadges: false
 ---
 # Predicting Value of Currencies Affected by Legislation
@@ -27,9 +29,9 @@ Location: United Kingdom
  - As a foreign investor, I want a general idea of which currencies will prevail the strongest or fall the weakest so in the coming months I am prepared for these changes.   
 
 **Dillon Brooks**
-Age: 29 
-Location: Madrid, Spain 
-Occupation: Blue-Collar Worker
+Age: 29      
+Location: Madrid, Spain        
+Occupation: Blue-Collar Worker       
 
 Dillon is a middle-class father of two currently living in Madrid, Spain. As he is considering relocating to another country, he wants to understand the financial implications of such a move, particularly how currency fluctuations might affect his savings and long-term stability. 
 
