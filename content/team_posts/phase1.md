@@ -7,17 +7,10 @@ slug: "phase1post"
 tags: ["project", "Setup"]
 authors:
   - "Guha Mahesh"
-<<<<<<< HEAD
-  - "Carter Vargas"
-  - "Bhuvan Hospet"
-  - "Sota Shimizu"
+  - "BhuvanHospet"
+  - "SotaShimizu"
+  - "CarterVargas"
 showAuthorsBadges: false
-=======
-  - "Bhuvan Hospet"
-  - "Sota Shimizu"
-  - "Carter Vargas"
-showAuthorsBadges: false
->>>>>>> 03edcdee5bf891e6cb96afbc670451f823149783
 ---
 
 # Predicting Value of Currencies Affected by Legislation
