@@ -1,15 +1,15 @@
 ---
 title: "Project - Phase I"
-date: 2024-05-14
+date: 2025-05-15
 draft: false
 description: "Our Idea"
 slug: "phase1post"
 tags: ["project", "Setup"]
 authors:
   - "Guha Mahesh"
-  - "Bhuvan Hospet"
-  - "Sota Shimizu"
-  - "Carter Vargas"
+  - "BhuvanHospet"
+  - "SotaShimizu"
+  - "CarterVargas"
 showAuthorsBadges: false
 ---
 
