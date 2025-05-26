@@ -7,7 +7,7 @@ tags: ["authors", "config", "docs"]
 slug: "index"
 authors:
   - "eric_gerber"
-showAuthorsBadges : false
+showAuthorsBadges: false
 ---
 
 # Welcome to Team FinFluxes!
