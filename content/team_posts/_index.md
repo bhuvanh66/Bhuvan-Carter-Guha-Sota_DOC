@@ -13,6 +13,6 @@ authors:
 showAuthorsBadges : false
 ---
 
-# Welcome to Team WeCanDoThis!
+# Welcome to Team FinFluxes!
 
-Welcome to the Professorial Team's Blog
+Welcome to our team records for the Summer 2025 Data and Software DoC.
