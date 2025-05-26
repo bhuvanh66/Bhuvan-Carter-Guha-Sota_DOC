@@ -10,7 +10,7 @@ authors:
 <<<<<<< HEAD
   - "Carter Vargas"
   - "Bhuvan Hospet"
-  - "Sota Shimizu
+  - "Sota Shimizu"
 showAuthorsBadges: true
 =======
   - "Bhuvan Hospet"
