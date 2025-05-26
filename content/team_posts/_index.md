@@ -3,7 +3,10 @@ title: "Project - Phase I"
 date: 2025-05-15
 draft: false
 description: "Our Idea"
-tags: ["authors", "config", "docs"]
+tags:
+  - "authors"
+  - "config"
+  - "docs"
 slug: "index"
 authors:
   - "cartervargas"
