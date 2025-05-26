@@ -11,7 +11,7 @@ authors:
   - "Carter Vargas"
   - "Bhuvan Hospet"
   - "Sota Shimizu"
-showAuthorsBadges: true
+showAuthorsBadges: false
 =======
   - "Bhuvan Hospet"
   - "Sota Shimizu"
