@@ -1,12 +1,15 @@
 ---
 title: "Project - Phase I"
-date: 2024-05-11
+date: 2025-05-15
 draft: false
 description: "Our Idea"
 tags: ["authors", "config", "docs"]
 slug: "index"
 authors:
-  - "eric_gerber"
+  - "cartervargas"
+  - "guhamahesh"
+  - "bhuvanhospet"
+  - "sotashimizu"
 showAuthorsBadges : false
 ---
 

@@ -1,14 +1,16 @@
 ---
 title: "Project - Phase I"
-date: 2024-05-14
+date: 2025-05-15
 draft: false
 description: "Our Idea"
 slug: "phase1post"
 tags: ["project", "Setup"]
 authors:
-  - "guhamahesh"
-  - "mark_fontenot"
-showAuthorsBadges: false
+  - "Guha Mahesh"
+  - "Carter Vargas"
+  - "Bhuvan Hospet"
+  - "Sota Shimizu
+showAuthorsBadges: true
 ---
 # Predicting Value of Currencies Affected by Legislation
 
