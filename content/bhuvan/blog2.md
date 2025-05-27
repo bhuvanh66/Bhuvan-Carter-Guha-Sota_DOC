@@ -3,11 +3,11 @@ title: "Blog Post 2"
 date: 2025-05-27
 draft: false
 description: "Personal Blog Post for Week 2"
-slug: "Bhuvan"   # if you use, needs to be different for every post
+slug: "post2"   # if you use, needs to be different for every post
 tags: ["authors", "config", "docs"]
 authors:
   - "Bhuvan Hospet"
-showAuthorsBadges : false
+showAuthorsBadges : true
 ---
 
 ## Blog Post 2
