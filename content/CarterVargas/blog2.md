@@ -10,9 +10,10 @@ authors:
 showAuthorsBadges : false
 ---
 
-# What I have Learned So Far
+# Phase 2 Contributions
 
-finish later
+For Phase 2 of the project I played a large role in the development of the ER digrams and implemenation of the database. Sota and I came up with ideas for the second and third personas, Andrew and Eleanore, and made respecitive databases for them. Eventually, we will generate data for these persona databases. 
 
-![image1](https://i.ibb.co/tw60rHC2/IMG-0626.jpg)
+Furtermore, I contributed to the Sun Yeu diagram which contains entities for the various data sources found by other members of the group. Lastly, I translated the Andrew and Eleanore ER diagrams into SQL using DataGrip. 
 
+To fix team blog post 1, I completely rewrote two of the personas as well as project overview.
