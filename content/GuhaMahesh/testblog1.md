@@ -16,3 +16,7 @@ Though it has only been a week, I feel as though my experiences here have alread
 ![image](https://i.ibb.co/G3bBJvvF/Screenshot-2025-05-20-at-3-08-01-PM.png)
 
 I have learnt in my time in Belgium is that my perception of the relevance of Brussels and Belgium as a whole has been very misled and wrong. I knew that Belgium housed the headquarters of NATO in addition to being home to many of the branches of the EU; however, it's relatively small population and size led me to believe it wasn't an important player in the west. My time here has shown me that this is simply not the case. The level of diversity I have witnessed in Brussels showed me that it truly was an _international city_.
+
+## My Contributions to Phase 1:
+
+During Phase 1, I helped come up with the original Idea for the project: an app for assisting Politicians, Advocates, and Lobbyists with making quick and effective policies. I also did all of the data collection; I found APIs, different websites that provided relevant data, and webscraped. After we submitted Phase 1, I also assisted with the recreation of our personas and adjusting for the feedback we received.
