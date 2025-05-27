@@ -10,7 +10,7 @@ authors:
   - "BhuvanHospet"
   - "SotaShimizu"
   - "CarterVargas"
-showAuthorsBadges: false
+showAuthorsBadges: true
 ---
 
 # Phase 2
@@ -20,8 +20,6 @@ After receiving feedback on Phase 1 of the project, our group decided to make ma
 Additionally we added the information and screenshots regarding the new data sources we are using. These include:
 - new monetary policy sources
 - new data regarding education and millitary spending
-
-
 
 ### Economic Models
 
@@ -58,3 +56,17 @@ Because the data for all of the sources came from the same data source, we creat
 ![img](https://i.ibb.co/nNMfxfT3/Screenshot-2025-05-27-at-10-16-11-PM.png)
 ## Residual Plot
 As we already built a model for the first economic model, we decided to look at the residual plot to prepare ourselves for the next phase and meeting our assumptions. As you can tell, the residual plots have given us revealed some heteroscedasticity; however these are a products of the High leverage **X-Outliers** as there are some X coordinates that don't match up with the other points. We may need to adjust for this later on.
+
+
+## ER Diagrams
+
+**Sun Yeu**
+![img](https://i.ibb.co/jPLq6j9N/Screenshot-2025-05-27-at-10-52-25-PM.png)
+
+**Eleanore Goosens**
+![img](https://i.ibb.co/tTspPJdQ/Screenshot-2025-05-27-at-10-55-42-PM.png)
+
+**Andrew Thornton**
+![img](https://i.ibb.co/R4NXCTwN/Screenshot-2025-05-27-at-10-57-49-PM.png)
+
+
