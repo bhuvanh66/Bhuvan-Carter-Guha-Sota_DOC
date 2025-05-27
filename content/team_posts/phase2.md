@@ -17,6 +17,9 @@ showAuthorsBadges: false
 
 After receiving feedback on Phase 1 of the project, our group decided to make major revamps to our project to expand the scope beyond currency exchange rates. Using the original idea, we kept one persona designated to analyze how policy will affect exchange rates in addition to stock indexes and HDI. The other two personas we created for people also interested in drafting policy, specifically a lobbyist and a student researcher. Furthermore, we added even more datasets on international data such as education and foreign aid investments
 
+Additionally we added the information and screenshots regarding the new data sources we are using. These include:
+- new monetary policy sources
+- new data regarding education and millitary spending
 
 
 
