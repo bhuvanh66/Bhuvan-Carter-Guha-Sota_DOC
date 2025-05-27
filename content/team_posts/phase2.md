@@ -56,6 +56,7 @@ As we already built a model for the first economic model, we decided to look at 
 
 
 ## ER Diagrams
+ER Diagrams, or Entity Relationship Diagrams, are a useful step in brainstorming for the structure of a relational database. In our case, we wanted to find the best way to connect data sources for features used by all of our user personas with minimal redundancy, which resulted in the following structure. The structure may be modified in the future, but our current database was formed using these 4 diagrams.
 
 **Sun Yeu**
 ![img](https://i.ibb.co/jPLq6j9N/Screenshot-2025-05-27-at-10-52-25-PM.png)
