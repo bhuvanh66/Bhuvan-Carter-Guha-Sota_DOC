@@ -19,41 +19,44 @@ showAuthorsBadges: false
 
 Currencies across the world are constantly fluctuating as a result of inflation, foreign market demand, legislative policies, and many other factors. Knowing how these exchange rates change can be critical for international business that affects the price of imported goods for everyday people. Our application will use machine learning to train a model based on how different economic policies have affected these currencies in the past to predict how the Euro will fluctuate with respect to three different currencies: The US Dollar, the Pound Sterling, and the Chinese Yuan. The application will give the user to login as three different personas. The first being a foreign investor investigating how tariffs will affect trade across nations; a domestic importer from the EU looking at how tax rates will affect demand; and a migrant analyzing the implications of expatriating to another country. We will collect data from a variety of sources including FRED, World Bank, and UCDP. Our features will include three types of interest rates, conversion rates, foreign aid, tariffs, and war.
 
+
 ## Personas
 
-**Andrew Thornton**  
-Age: 39  
-Occupation: Foreign Investor  
-Location: United Kingdom
+**Andrew Thornton** 
+Age: 39 
+Occupation: German Nato Representative 
+Location: Nato Headquarters, Brussels
+Bio: Andrew is an advocate for providing foreign aid to countries affected by war and conflict.
 
-- As a foreign investor, I want to predict how currency exchange rates will change in response to tariffs. I want to know when I should buy and sell stock so I can maximize gains in a currency that is value to me, pounds.
-- As a foreign investor, I want to see how elections will alter exchange rates based on the economic policies of a right vs left party so that I know what to expect when a country has a change in power.
-- As a foreign investor, I want to know how changing interest rates will affect the economies of foreign countries so I can predict the demand of goods in these countries.
-- As a foreign investor, I want a general idea of which currencies will prevail the strongest or fall the weakest so in the coming months I am prepared for these changes.
+- As a German Representative for Nato, I want to provide aid to nations without harming the economies of countries like my own.
+- As a Nato Representative for Nato, I want to analyze previous foreign aid policy and evaluate how that affected the economy in the following ten years
+- As a German Representative for Nato, I want to draft my own policy and determine the effects it will have
+- As a German Representative for Nato, I want to determine which countries are most in need of aid..
 
-**Dillon Brooks**  
-Age: 29  
-Location: Madrid, Spain  
-Occupation: Blue-Collar Worker
 
-Dillon is a middle-class father of two currently living in Madrid, Spain. As he is considering relocating to another country, he wants to understand the financial implications of such a move, particularly how currency fluctuations might affect his savings and long-term stability.
+**Sun Yue** 
+Age: 29 
+Location: Brussels, Belgium
+Occupation: Member of the European Parliament 
+Bio: Sun is a Spanish policy maker who is looking to pass legislation that will benefit the European Union as a whole.
 
-- As a potential migrant, I want to view predictions of future exchange rates between my home country and the EU, so I can better understand how far my savings will go.
-- As a potential migrant, I want to compare the strength of the Euro against multiple currencies over time, so I can decide which country is most financially stable to relocate to.
-- As a potential migrant, I want to see how major events, such as war or financial crises, historically affected currency value, so I can account for risks before making long-term plans.
-- As a potential migrant, I want to track how changes in interest rates might affect the cost of living in Europe, so I can plan my budget more accurately.
+- As an MEP, I want to view historical economic data of the Euro and compare how its value has changed over time.
+- As an MEP, I want to test potential legislative policies regarding interest rates to see how it will affect the stock market index.
+- As an MEP, I want to pass legislation that will only strengthen the value of the Euro.
+- As an MEP, I want to analyze imports and exports between countries.
 
-**Gerrard Goossens**  
-Age: 55  
-Location: Brussels, Belgium  
-Occupation: Executive for European Shipping Department, Aligurta
 
-Gerrard is an Executive for the European Shipping Department of Aligurta, a Chinese company, and is interested in Euro/Yuan exchange rates. He is in the EU and handles shipments from warehouses in China.
+**Eleanore Goossens** 
+Age: 45
+Location: Paris, France
+Occupation: Lobbyist
+Bio: Eleanore is a lobbyist interested in keeping track of conversations and key policy ideas that have come up in recent years, and seeing their implications over time.
 
-- As a Domestic Importer, I want to predict the best timing to make bulk shipments to the EU by looking at Euro/Yuan price fluctuation given some major current events.
-- As a Domestic Importer, I want to avoid selling goods in a non-lucrative area, so I want to figure out if it is better to sell goods in the EU or in China.
-- As a Domestic Importer, I want to track tariffs in parallel with exchange rates because they both affect shipping costs.
-- As a Company Executive, I want to consider interest rates to borrow money in the most effective way and ship more products to the EU.
+- As a lobbyist, I want to keep track of previous conversations I had with key politicians regarding policy.
+- As a lobbyist, I want to view the historical growth of different energy sources in the EU over the last couple of years.
+- As a lobbyist, I want to see the relationship between the energy industry in the EU and energy in other countries over time.
+- As a lobbyist, I want to generate graphs that can be used to illustrate historical trends.
+
 
 ## Candidate Data Sources
 
