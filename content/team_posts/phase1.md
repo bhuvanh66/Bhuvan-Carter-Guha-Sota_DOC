@@ -63,26 +63,28 @@ Bio: Eleanore is a lobbyist interested in keeping track of conversations and key
 
 ## Candidate Data Sources
 
-So far, we have been able to retreive API data regarding the following statistics from FRED across a large span of time:
+So far, we have been able to retreive API data regarding the following statistics about Monetary Policy from FRED across a large span of time:
 
-- Three different types of interest rates that the EU uses for Monetary Policy (numerical)
-  With these sources, we can train the model to predict exchange rates based off **EU monetary policy**
+  - Exports Import Data 
+  - Average Treasury Securities Data  
+  - Average Discount Rate Data 
+  - Federal Reserve Balance Data  
+Additionally, we have utilized the yfinance Python Library to access the historical closing price of the SP500 market index marked under \['close'] in the below picture.
 
-  - The Main Refinancing Rate
-  - The Deposit Facility Rate
-  - The Marginal Facility Rate
-
-    ![image](https://i.ibb.co/dwTqw4V4/Screenshot-2025-05-20-at-4-16-29-PM.png)
+    ![image](https://i.ibb.co/zWXjMgxp/Screenshot-2025-05-27-at-10-33-03-PM.png)
 
 - Conversion Rates Between Currencies (numerical)
   These sources will essentially give us the labels for the AI data so that we can actually train the model
   - USD to Chinese Yuan
   - USD to Euro
   - USD to British Pound
-    We plan on using the USD conversion rates to find the respective historical EU exchange rates
+  - Many other currencies
     ![image](https://i.ibb.co/Pvf19JB2/Screenshot-2025-05-20-at-4-22-23-PM.png)
+For training a model which predicts policy's based off previous foreign policies
+
 - The main source of money for Foreign Aid (categorical)
-  We plan on training the AI to check how the source of the foreign aid that EU provides affects currency exchange as well
+- Money spent on education
+- Money spent on Millitary
+  ![image](https://i.ibb.co/N26XQnx9/Screenshot-2025-05-27-at-10-39-19-PM.png)
   ![image](https://i.ibb.co/twzFWy3K/foreign-Aid-Fin-Source.png)
 
-  We also plan on retreiving data regarding **tariffs** and current **wars** and **conflict** as these are very notable factors that affect exchange rates
