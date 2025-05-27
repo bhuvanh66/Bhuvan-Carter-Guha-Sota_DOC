@@ -10,37 +10,39 @@ authors:
   - "BhuvanHospet"
   - "SotaShimizu"
   - "CarterVargas"
-showAuthorsBadges: false
+showAuthorsBadges: true
 ---
 
-# Predicting Value of Currencies Affected by Legislation
+# App Name TBD
 
 ## Project Description
 
-Currencies across the world are constantly fluctuating as a result of inflation, foreign market demand, legislative policies, and many other factors. Knowing how these exchange rates change can be critical for international business that affects the price of imported goods for everyday people. Our application will use machine learning to train a model based on how different economic policies have affected these currencies in the past to predict how the Euro will fluctuate with respect to three different currencies: The US Dollar, the Pound Sterling, and the Chinese Yuan. The application will give the user to login as three different personas. The first being a foreign investor investigating how tariffs will affect trade across nations; a domestic importer from the EU looking at how tax rates will affect demand; and a migrant analyzing the implications of expatriating to another country. We will collect data from a variety of sources including FRED, World Bank, and UCDP. Our features will include three types of interest rates, conversion rates, foreign aid, tariffs, and war.
+Public policy is ubiquitous in life and affects almost every aspect of society. Policy makers and government officials play an essential role in passing legislation that alters the economy, education, and aid to foreign countries. Our team has created an app that will assist in the development and implementation of such policy and allow any person interested in international policy, whether that be a lobbyist, research student, or member of government to experiment with various policies. Features of our app include allowing users to draft their own policies regarding foreign aid and education investments and predicting how such actions will affect stock market indexes and values of currencies. Additionally, a data collection feature will allow the user to take notes from a speaker and input ideas. These ideas can be further refined and inputted into the app to determine the best course of action to get the policy proposed. Our app will include 3 machine learning models trained on historical legislative data to make predictions about the outcomes of these policies and draw valuable insights in their effects.
 
 
 ## Personas
 
 **Andrew Thornton** 
-Age: 39 
-Occupation: German Nato Representative 
-Location: Nato Headquarters, Brussels
-Bio: Andrew is an advocate for providing foreign aid to countries affected by war and conflict.
+Age: 28
+Occupation: PHD Candidate at KU Leuven 
+Location: Leuven, Belgium
+Bio: Andrew is studying policy at university and wants to come up with new ideas for legislation.
 
-- As a German Representative for Nato, I want to provide aid to nations without harming the economies of countries like my own.
-- As a Nato Representative for Nato, I want to analyze previous foreign aid policy and evaluate how that affected the economy in the following ten years
-- As a German Representative for Nato, I want to draft my own policy and determine the effects it will have
-- As a German Representative for Nato, I want to determine which countries are most in need of aid..
+- As a student, I want to retrieve historical data on policies passed in the EU.
+- As a student, I want to draft my own policy and determine the best course of action for making it implementable in society.
+- As a student, I want to compare this policy to historical data and find more information on similar policies.
+- As a student, I want to observe what the best practice would be to spread this policy quickly.
 
 
 **Sun Yue** 
-Age: 29 
-Location: Brussels, Belgium
+Age: 46 
+Location: Paris, France
 Occupation: Member of the European Parliament 
 Bio: Sun is a Spanish policy maker who is looking to pass legislation that will benefit the European Union as a whole.
 
+
 - As an MEP, I want to view historical economic data of the Euro and compare how its value has changed over time.
+- As an MEP, I want to determine how foreign aid, education spending, and military spending is affecting HDI.
 - As an MEP, I want to test potential legislative policies regarding interest rates to see how it will affect the stock market index.
 - As an MEP, I want to pass legislation that will only strengthen the value of the Euro.
 - As an MEP, I want to analyze imports and exports between countries.
@@ -52,9 +54,10 @@ Location: Paris, France
 Occupation: Lobbyist
 Bio: Eleanore is a lobbyist interested in keeping track of conversations and key policy ideas that have come up in recent years, and seeing their implications over time.
 
+
 - As a lobbyist, I want to keep track of previous conversations I had with key politicians regarding policy.
 - As a lobbyist, I want to view the historical growth of different energy sources in the EU over the last couple of years.
-- As a lobbyist, I want to see the relationship between the energy industry in the EU and energy in other countries over time.
+- As a lobbyist, I want to see the relationship between the
 - As a lobbyist, I want to generate graphs that can be used to illustrate historical trends.
 
 
