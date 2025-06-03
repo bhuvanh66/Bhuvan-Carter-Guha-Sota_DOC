@@ -93,6 +93,9 @@ One reason these features may not have a strong correlation with HDI is because 
 ## ER Diagrams
 ER Diagrams, or Entity Relationship Diagrams, are a useful step in brainstorming for the structure of a relational database. In our case, we wanted to find the best way to connect data sources for features used by all of our user personas with minimal redundancy, which resulted in the following structure. The structure may be modified in the future, but our current database was formed using these 4 diagrams.
 
+**Global Diagram**
+![img](https://i.ibb.co/7xmFFcNG/Screenshot-2025-05-28-at-12-54-29-AM.png)
+
 **Sun Yeu**
 ![img](https://i.ibb.co/jPLq6j9N/Screenshot-2025-05-27-at-10-52-25-PM.png)
 
