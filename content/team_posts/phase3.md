@@ -44,29 +44,26 @@ We played around with various monetary policy features in addition to Net Export
 ##### QQ Plots:
 ![image](https://i.ibb.co/spdZ8JRx/Screenshot-2025-06-04-at-10-40-37-PM.png)
 Before testing other assumptions, we decided to check for normality in the residuals. As you can see in the six residual QQ plots, the points generally lie close to a straight line, with minimal variability around the line. This suggests that the residuals are approximately normally distributed.
-
 ##### Assumption Plots
 
+
 ## S&P 500 Model Diagnostics
-<iframe src="../../assets/s&p_500_model_diagnostics.html" width="100%" height="800"></iframe>
+<iframe src="{{ "assets/s&p_500_model_diagnostics.html" | relURL }}" width="100%" height="800"></iframe>
 
 ## Euro Model Diagnostics
-<iframe src="../../assets/euro_diagnostics.html" width="100%" height="800"></iframe>
+<iframe src="{{ "assets/euro_diagnostics.html" | relURL }}" width="100%" height="800"></iframe>
 
 ## Japanese Yen Model Diagnostics
-<iframe src="../../assets/japanese_yen_diagnostics.html" width="100%" height="800"></iframe>
+<iframe src="{{ "assets/japanese_yen_diagnostics.html" | relURL }}" width="100%" height="800"></iframe>
 
 ## Australian Dollar Model Diagnostics
-<iframe src="../../assets/australian_dollar_diagnostics.html" width="100%" height="800"></iframe>
+<iframe src="{{ "assets/australian_dollar_diagnostics.html" | relURL }}" width="100%" height="800"></iframe>
 
 ## Chinese Yuan Model Diagnostics
-<iframe src="../../assets/chinese_yuan_diagnostics.html" width="100%" height="800"></iframe>
+<iframe src="{{ "assets/chinese_yuan_diagnostics.html" | relURL }}" width="100%" height="800"></iframe>
 
 ## British Pound Model Diagnostics
-<iframe src="../../assets/british_pound_diagnostics.html" width="100%" height="800"></iframe>
-
-## QQ Plots - Normality Check
-
+<iframe src="{{ "assets/british_pound_diagnostics.html" | relURL }}" width="100%" height="800"></iframe>
 
 
 
