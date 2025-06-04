@@ -24,41 +24,43 @@ Public policy is ubiquitous in life and affects almost every aspect of society. 
 
 **Andrew Thornton** 
 Age: 28
-Occupation: PHD Candidate at KU Leuven 
-Location: Leuven, Belgium
-Bio: Andrew is studying policy at university and wants to come up with new ideas for legislation.
+Location: Boston, United States
+Occupation: Economist at Harvard University
+Bio: Andrew is an Economist at Harvard University, who would like to figure out the best ways to elevate his tried & tested ideas, so that they can be implemented 
 
-- As a student, I want to retrieve historical data on policies passed in the EU.
-- As a student, I want to draft my own policy and determine the best course of action for making it implementable in society.
-- As a student, I want to compare this policy to historical data and find more information on similar policies.
-- As a student, I want to observe what the best practice would be to spread this policy quickly.
+- As an economists, I want to retrieve historical data on policies passed in the EU.
+- As an economists, I want to draft my own policy and determine the best course of action for making it implementable in society.
+- As an economists, I want to compare this policy to historical data and find more information on similar policies.
+- As an economists, I want to observe what the best practice would be to spread this policy quickly.
 
 
 **Sun Yue** 
 Age: 46 
-Location: Paris, France
-Occupation: Member of the European Parliament 
+Location: Washington D.C, United States
+Occupation: Member of US Congress
 Bio: Sun is a Spanish policy maker who is looking to pass legislation that will benefit the European Union as a whole.
 
 
-- As an MEP, I want to view historical economic data of the Euro and compare how its value has changed over time.
-- As an MEP, I want to determine how foreign aid, education spending, and military spending is affecting HDI.
-- As an MEP, I want to test potential legislative policies regarding interest rates to see how it will affect the stock market index.
-- As an MEP, I want to pass legislation that will only strengthen the value of the Euro.
-- As an MEP, I want to analyze imports and exports between countries.
+- As a member of Congress, I want to view historical economic data of the Euro and compare how its value has changed over time.
+- As a member of Congress, I want to test potential legislative policies regarding different economic policies to see how it will affect the economic health of my country
+- As a member of Congress, I want to be able to view all the lobbyists in my interest area before they confront me.
+- As a member of Congress, I want to be able to interact with experienced economists with good avice on economic policy
+
 
 
 **Eleanore Goossens** 
 Age: 45
-Location: Paris, France
 Occupation: Lobbyist
+Location: Indianapolis, Indiana
 Bio: Eleanore is a lobbyist interested in keeping track of conversations and key policy ideas that have come up in recent years, and seeing their implications over time.
 
 
 - As a lobbyist, I want to keep track of previous conversations I had with key politicians regarding policy.
-- As a lobbyist, I want to view the historical growth of different energy sources in the EU over the last couple of years.
-- As a lobbyist, I want to see the relationship between the
-- As a lobbyist, I want to generate graphs that can be used to illustrate historical trends.
+- As a lobbyist, I want to be able to compare different politician policies
+- As a lobbyist, I want to be able to find politicians in my interest Area
+- As a lobbyist, I want to be able to mobilize experienced economists with a similar interest as myself
+
+
 
 
 ## Candidate Data Sources
@@ -85,6 +87,8 @@ For training a model which predicts policy's based off previous foreign policies
 - The main source of money for Foreign Aid (categorical)
 - Money spent on education
 - Money spent on Millitary
+- money spent on Health Care spending
+All as a percentage of the GDP the year before. 
   ![image](https://i.ibb.co/N26XQnx9/Screenshot-2025-05-27-at-10-39-19-PM.png)
   ![image](https://i.ibb.co/twzFWy3K/foreign-Aid-Fin-Source.png)
 
