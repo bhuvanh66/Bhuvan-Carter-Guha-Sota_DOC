@@ -47,25 +47,25 @@ Before testing other assumptions, we decided to check for normality in the resid
 
 ##### Assumption Plots
 
-
 ## S&P 500 Model Diagnostics
-<iframe src="../assets/s&p_500_model_diagnostics.html" width="100%" height="800"></iframe>
+<iframe src="../../assets/s&p_500_model_diagnostics.html" width="100%" height="800"></iframe>
 
 ## Euro Model Diagnostics
-<iframe src="../assets/euro_diagnostics.html" width="100%" height="800"></iframe>
+<iframe src="../../assets/euro_diagnostics.html" width="100%" height="800"></iframe>
 
 ## Japanese Yen Model Diagnostics
-<iframe src="../assets/japanese_yen_diagnostics.html" width="100%" height="800"></iframe>
+<iframe src="../../assets/japanese_yen_diagnostics.html" width="100%" height="800"></iframe>
 
 ## Australian Dollar Model Diagnostics
-<iframe src="../assets/australian_dollar_diagnostics.html" width="100%" height="800"></iframe>
+<iframe src="../../assets/australian_dollar_diagnostics.html" width="100%" height="800"></iframe>
 
 ## Chinese Yuan Model Diagnostics
-<iframe src="../assets/chinese_yuan_diagnostics.html" width="100%" height="800"></iframe>
+<iframe src="../../assets/chinese_yuan_diagnostics.html" width="100%" height="800"></iframe>
 
 ## British Pound Model Diagnostics
-<iframe src="../assets/british_pound_diagnostics.html" width="100%" height="800"></iframe>
+<iframe src="../../assets/british_pound_diagnostics.html" width="100%" height="800"></iframe>
 
+## QQ Plots - Normality Check
 
 
 
