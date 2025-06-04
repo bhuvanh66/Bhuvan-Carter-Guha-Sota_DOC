@@ -36,7 +36,8 @@ We used the following features to train the models:
 - Average Treasury Securities Data  
 - Average Discount Rate Data 
 - Federal Reserve Balance Data  
-As you can see, there is a strong linear trend for all 3 of these features and a weaker trend for the average discount Rate (which still indicates a slight linear trend). 
+As you can see, there is not a clear linear trend for many of these features as they display some curvature. Our intuition says that this is a result of time being a lurking variable and can be solved by adding lag values.
+
 ![img](https://i.ibb.co/YF9NhwJT/Screenshot-2025-05-27-at-9-45-52-PM.png)
 
 After completing a linear regression, we actually found an extremely high $r^2$ value .97 and an MSE of .028, indicating a strong model.
@@ -45,10 +46,13 @@ After completing a linear regression, we actually found an extremely high $r^2$ 
 #### Correlation Plot for Model 2
 
 ![img](https://i.ibb.co/0ySTC49j/Screenshot-2025-05-27-at-9-45-03-PM.png)
-Again, we used the same features to view the trends between the EUR/USD rates and the corresponding features. As you can see, there is once again linear patterns amongst the four graphs; however, the patterns seem to be weaker, but we haven’t done a linear regression with this data yet as the API was lagging behind due to excessive usage for testing. 
+Again, we used the same features to view the trends between the EUR/USD rates and the corresponding features. As you can see, there is once again no clear linear patterns amongst the four graphs; Additionally, the patterns seem to be weaker, but we haven’t done a linear regression with this data yet as the API was lagging behind due to excessive usage for testing. 
+####
+![img](https://i.ibb.co/9kR8hRL5/Screenshot-2025-06-04-at-9-08-52-PM.png)
+Our intuition about the time playing a role may have been overstated as there isn't a very steep trend here. However, there is still clearly some lurking relationship, which could be leading to values being skewed by date and causing autocorrelation.
 
 #### Our Choices
- We weren't completely confident in the correlation between our features and our targets, so we decided to do simple plots showing our target values against our features, which proved our concerns to be somewhat unfounded as there seemed to be a clear correlation for both models in the economic portion of Persona 1
+ We weren't completely confident in the correlation between our features and our targets, so we decided to do simple plots showing our target values against our features, which proved our concerns to be somewhat unfounded as there seemed to be a clear correlation for both models in the economic portion of Persona 1.
 
 #### Preparing for our model
 Because the data for all of the sources came from the same data source, we created a function that essentially returned the cleaned dataframe based off the input code for FRED (the database we got the data from). After this, we found the lower and upper bounds for the tomes of all the data and chose the smallest range so that all the data would be trained over the same historic range. After merging the frames together on the date column, we got rid of the values that were historically outliers or data that resulted in skewed charts until we saw the time period with a linear pattern. The datapoints tended to report the the years 2000-2010 as 0 for many values, and thus we had to exclude them from the plot even if all the datasets contained values for those years. Overall, the data seems to set us up for two strong models as long as we handle the assumptions well. 
