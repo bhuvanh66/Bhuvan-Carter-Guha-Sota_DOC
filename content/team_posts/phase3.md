@@ -49,23 +49,6 @@ In this case this model would predict Germany's 2024 GDP per capita based on the
 We researched many features (mainly through the world bank) and found that most of the data related to gdp
 was related to these 3 features. When plotting the data, we found that there was definetly a linear trend, however, country had a large impact on the final GDP of a model.
 
-To start we plotted each feature (as a % of previous year's GDP) to predict next year's gdp. This involved finding the previous year's GDP and the current year's GDP to calculate the current total spending and putting that in terms of the previous year's gdp.
-
-![image](https://i.ibb.co/v6P8jLvF/Screenshot-2025-06-05-at-11-49-30-PM.png)
-![image](https://i.ibb.co/pBbHVLjG/Screenshot-2025-06-05-at-11-49-45-PM.png)
-![image](https://i.ibb.co/rGnqvdh4/Screenshot-2025-06-05-at-11-49-56-PM.png)
-
-These plots showed a generally linear correlation (with the exception of Russia), so we decided to remove Russia from our dataset because it showed a clear opposite trend. This graph also revealed that time and country were a major feature and that we should definetly account for it in our model.
-
-
-![image](https://i.ibb.co/j1kw59G/Screenshot-2025-06-06-at-12-54-00-AM.png)
-![image](https://i.ibb.co/j9MnRXRC/Screenshot-2025-06-06-at-12-55-16-AM.png)
-![image](https://i.ibb.co/nqX1d0WS/Screenshot-2025-06-06-at-12-55-28-AM.png)
-![image](https://i.ibb.co/n8CJfh1F/Screenshot-2025-06-06-at-12-55-43-AM.png)
-![image](https://i.ibb.co/W426qPRc/Screenshot-2025-06-06-at-12-55-56-AM.png)
-![image](https://i.ibb.co/k2LnNh1H/Screenshot-2025-06-06-at-12-56-08-AM.png)
-
-After training and creating our linear regression model, we ended up with these residual plots for residuals vs x values and the order residual plots for each feature, which also took into account country. For all 3 features, the residual plots show a linear relationship with equal datapoints above and below the mean. All 3 have index residual plots that aren't entirely random, showing slight curves and outliers, but this is likely due to how countries have very different situations and that these features alone can't entirely predict a complicated factor such as GDP.
 
 #### Model 2: S&P Index and Currency Exchange Rates (Linear Regression)
 The features for this model included:
@@ -102,6 +85,25 @@ It is important to acknowledge that there is still very clear patterns, but ther
 ![image](https://i.ibb.co/P7BcW3T/Screenshot-2025-06-05-at-8-38-44-PM.png)
  As you can see, the same 6 lag strategy worked very effectively on the Currency data as well. In the first plot, there is a large amount of spread about the histogram in addition to clear homoscedasticity and autocorrelation. The second plot seems to mostly mitigate these with the six lags however.
 
+##### GDP Per Capital Model
+
+To start we plotted each feature (as a % of previous year's GDP) to predict next year's gdp. This involved finding the previous year's GDP and the current year's GDP to calculate the current total spending and putting that in terms of the previous year's gdp.
+
+![image](https://i.ibb.co/v6P8jLvF/Screenshot-2025-06-05-at-11-49-30-PM.png)
+![image](https://i.ibb.co/pBbHVLjG/Screenshot-2025-06-05-at-11-49-45-PM.png)
+![image](https://i.ibb.co/rGnqvdh4/Screenshot-2025-06-05-at-11-49-56-PM.png)
+
+These plots showed a generally linear correlation (with the exception of Russia), so we decided to remove Russia from our dataset because it showed a clear opposite trend. This graph also revealed that time and country were a major feature and that we should definetly account for it in our model.
+
+
+![image](https://i.ibb.co/j1kw59G/Screenshot-2025-06-06-at-12-54-00-AM.png)
+![image](https://i.ibb.co/j9MnRXRC/Screenshot-2025-06-06-at-12-55-16-AM.png)
+![image](https://i.ibb.co/nqX1d0WS/Screenshot-2025-06-06-at-12-55-28-AM.png)
+![image](https://i.ibb.co/n8CJfh1F/Screenshot-2025-06-06-at-12-55-43-AM.png)
+![image](https://i.ibb.co/W426qPRc/Screenshot-2025-06-06-at-12-55-56-AM.png)
+![image](https://i.ibb.co/k2LnNh1H/Screenshot-2025-06-06-at-12-56-08-AM.png)
+
+After training and creating our linear regression model, we ended up with these residual plots for residuals vs x values and the order residual plots for each feature, which also took into account country. For all 3 features, the residual plots show a linear relationship with equal datapoints above and below the mean. All 3 have index residual plots that aren't entirely random, showing slight curves and outliers, but this is likely due to how countries have very different situations and that these features alone can't entirely predict a complicated factor such as GDP.
 
 ### Our Integrated ML Model
 #### *important to note that these are three stitched screenshots, not one page*
@@ -117,9 +119,29 @@ Our team has implemented a variety of Rest API Routes that are used across our a
 "GET" Routes were espeically useful for filtering data from the database. Using queries containing MYSQL code, we were able to use SELECT statements with conditions to display specific policies the databse. Users are then able favorite policies for further research on a different page.
 ![image](https://i.ibb.co/1tqW8PfL/Screenshot-2025-06-06-at-12-15-27-AM.png)
 
-The "POST" and "Delete" route can also be used here to modify which policies are added and removed from the Favorite_Policies table. Using a foreign key and JOIN command to link the two tables.
+The "POST" and "Delete" route can also be used here to modify which policies are added and removed from the Favorite_Policies table. This example uses a foreign key and JOIN command to link the two tables.
 ![image](https://i.ibb.co/9HwNvxFw/Screenshot-2025-06-06-at-12-17-13-AM.png)
+
+## Updated ER Diagram
+
+We greatly improved the structure of our ER diagram (Entity Relationship) after receiving feedback on the previous phase. Here is what we currently have:
+![image](https://i.ibb.co/0RVPS6Y1/Screenshot-2025-06-06-at-12-42-59-AM.png)
+
+The database now accounts for individual users, and this allowed us to do much more with the API to make the website more user-specific, and make a realistic app setting (ex. Saved/favorited features are only shown for the user that saved/favorited).
+
 
 ## Streamlit
 
-So far, our team has put together three working personas with mostly complete functionality. Each persona contains at least two interactive pages.
+So far, our team has put together three working personas with mostly complete functionality. Each persona has been updated to include at least two interactive pages. The frontend uses all 4 types of API routes so the user can directly interact with the database through the web app. 
+
+Here are some examples of pages that were not already shown above:
+
+![image](https://i.ibb.co/gZ6XBGMN/Screenshot-2025-06-06-at-12-49-44-AM.png)
+Screen for the Lobbyist, allows them to write down a note on a conversation they had with a selected Politician
+
+![image](https://i.ibb.co/wZzZC0ZT/Screenshot-2025-06-06-at-12-55-09-AM.png)
+Another Lobbyist screen, allows them to view multiple conversations they had. Needs to be updated to include the model, however.
+
+![image](https://i.ibb.co/tw9DsMQP/Screenshot-2025-06-06-at-12-57-01-AM.png)
+The current results screen for the Policy Maker, we will be implementing more visuals soon.
+
