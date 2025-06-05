@@ -74,12 +74,13 @@ The frontend has quite a bit of room to be more visually pleasing, but the pages
 ## Flask API Routes
 
 Our team has implemented a variety of Rest API Routes that are used across our application. As seen in the table, we have incorportated GET, POST, PUT, and DELETE routes that provide many functionalities to our app.
-![image](https://i.ibb.co/1tqW8PfL/Screenshot-2025-06-06-at-12-15-27-AM.png)
+![image](https://i.ibb.co/d0sNpTRn/Screenshot-2025-06-06-at-12-32-13-AM.png)
 
 "GET" Routes were espeically useful for filtering data from the database. Using queries containing MYSQL code, we were able to use SELECT statements with conditions to display specific policies the databse. Users are then able favorite policies for further research on a different page.
-![image](https://i.ibb.co/9HwNvxFw/Screenshot-2025-06-06-at-12-17-13-AM.png)
+![image](https://i.ibb.co/1tqW8PfL/Screenshot-2025-06-06-at-12-15-27-AM.png)
 
 The "POST" and "Delete" route can also be used here to modify which policies are added and removed from the Favorite_Policies table. Using a foreign key and JOIN command to link the two tables.
+![image](https://i.ibb.co/9HwNvxFw/Screenshot-2025-06-06-at-12-17-13-AM.png)
 
 ## Streamlit
 
