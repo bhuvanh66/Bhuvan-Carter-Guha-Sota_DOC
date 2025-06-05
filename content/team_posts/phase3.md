@@ -29,6 +29,44 @@ showAuthorsBadges: true
 
 #### Model 1: GDP Per Capita (Linear Regression)
 
+GDP (Gross Domestic Product) per capita is a metric that measures a country's economic output per person
+The features for this model included:
+- Current health spending expressed as % of *previous year's* GDP
+- Current education spending expressed as % of *previous year's* GDP
+- Previous year's military spending (% of government expenditure)
+- The previous year (captures time-based economic trends)
+- Country
+
+This model predicts this year's GDP per Capita. 
+
+ex: Health spending: 8% (current spending as % of previous year's GDP)
+Education spending: 5% (current spending as % of previous year's GDP)
+Military spending: 3% (previous year's spending)
+Country: Germany
+Previous year: 2023
+In this case this model would predict Germany's 2024 GDP per capita based on these lagged spending patterns
+
+We researched many features (mainly through the world bank) and found that most of the data related to gdp
+was related to these 3 features. When plotting the data, we found that there was definetly a linear trend, however, country had a large impact on the final GDP of a model.
+
+To start we plotted each feature (as a % of previous year's GDP) to predict next year's gdp. This involved finding the previous year's GDP and the current year's GDP to calculate the current total spending and putting that in terms of the previous year's gdp.
+
+![image](https://i.ibb.co/v6P8jLvF/Screenshot-2025-06-05-at-11-49-30-PM.png)
+![image](https://i.ibb.co/pBbHVLjG/Screenshot-2025-06-05-at-11-49-45-PM.png)
+![image](https://i.ibb.co/rGnqvdh4/Screenshot-2025-06-05-at-11-49-56-PM.png)
+
+These plots showed a generally linear correlation (with the exception of Russia), so we decided to remove Russia from our dataset because it showed a clear opposite trend. This graph also revealed that time and country were a major feature and that we should definetly account for it in our model.
+
+
+![image](https://i.ibb.co/j1kw59G/Screenshot-2025-06-06-at-12-54-00-AM.png)
+![image](https://i.ibb.co/j9MnRXRC/Screenshot-2025-06-06-at-12-55-16-AM.png)
+![image](https://i.ibb.co/nqX1d0WS/Screenshot-2025-06-06-at-12-55-28-AM.png)
+![image](https://i.ibb.co/n8CJfh1F/Screenshot-2025-06-06-at-12-55-43-AM.png)
+![image](https://i.ibb.co/W426qPRc/Screenshot-2025-06-06-at-12-55-56-AM.png)
+![image](https://i.ibb.co/k2LnNh1H/Screenshot-2025-06-06-at-12-56-08-AM.png)
+
+After training and creating our linear regression model, we ended up with these residual plots for residuals vs x values and the order residual plots for each feature, which also took into account country. For all 3 features, the residual plots show a linear relationship with equal datapoints above and below the mean. All 3 have index residual plots that aren't entirely random, showing slight curves and outliers, but this is likely due to how countries have very different situations and that these features alone can't entirely predict a complicated factor such as GDP.
+
 #### Model 2: S&P Index and Currency Exchange Rates (Linear Regression)
 The features for this model included:
 - Federal Discount Rate for the United States
