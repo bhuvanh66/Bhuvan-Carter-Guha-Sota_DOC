@@ -1,19 +1,13 @@
 ---
 title: "Project - Phase I"
-date: 2025-05-15
+date: 2024-05-11
 draft: false
 description: "Our Idea"
-tags:
-  - "authors"
-  - "config"
-  - "docs"
+tags: ["authors", "config", "docs"]
 slug: "index"
 authors:
-  - "cartervargas"
-  - "guhamahesh"
-  - "bhuvanhospet"
-  - "sotashimizu"
-showAuthorsBadges: false
+  - "eric_gerber"
+showAuthorsBadges : false
 ---
 
 # Welcome to Team FinFluxes!
