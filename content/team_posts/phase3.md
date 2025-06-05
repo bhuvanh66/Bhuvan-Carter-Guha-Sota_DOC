@@ -13,7 +13,7 @@ authors:
 showAuthorsBadges: true
 ---
 
-# Phase 2
+# Phase 3
 
 ### Changes from Phase 2:
 
@@ -79,9 +79,29 @@ Our team has implemented a variety of Rest API Routes that are used across our a
 "GET" Routes were espeically useful for filtering data from the database. Using queries containing MYSQL code, we were able to use SELECT statements with conditions to display specific policies the databse. Users are then able favorite policies for further research on a different page.
 ![image](https://i.ibb.co/1tqW8PfL/Screenshot-2025-06-06-at-12-15-27-AM.png)
 
-The "POST" and "Delete" route can also be used here to modify which policies are added and removed from the Favorite_Policies table. Using a foreign key and JOIN command to link the two tables.
+The "POST" and "Delete" route can also be used here to modify which policies are added and removed from the Favorite_Policies table. This example uses a foreign key and JOIN command to link the two tables.
 ![image](https://i.ibb.co/9HwNvxFw/Screenshot-2025-06-06-at-12-17-13-AM.png)
+
+## Updated ER Diagram
+
+We greatly improved the structure of our ER diagram (Entity Relationship) after receiving feedback on the previous phase. Here is what we currently have:
+![image](https://i.ibb.co/0RVPS6Y1/Screenshot-2025-06-06-at-12-42-59-AM.png)
+
+The database now accounts for individual users, and this allowed us to do much more with the API to make the website more user-specific, and make a realistic app setting (ex. Saved/favorited features are only shown for the user that saved/favorited).
+
 
 ## Streamlit
 
-So far, our team has put together three working personas with mostly complete functionality. Each persona contains at least two interactive pages.
+So far, our team has put together three working personas with mostly complete functionality. Each persona has been updated to include at least two interactive pages. The frontend uses all 4 types of API routes so the user can directly interact with the database through the web app. 
+
+Here are some examples of pages that were not already shown above:
+
+![image](https://i.ibb.co/gZ6XBGMN/Screenshot-2025-06-06-at-12-49-44-AM.png)
+Screen for the Lobbyist, allows them to write down a note on a conversation they had with a selected Politician
+
+![image](https://i.ibb.co/wZzZC0ZT/Screenshot-2025-06-06-at-12-55-09-AM.png)
+Another Lobbyist screen, allows them to view multiple conversations they had. Needs to be updated to include the model, however.
+
+![image](https://i.ibb.co/tw9DsMQP/Screenshot-2025-06-06-at-12-57-01-AM.png)
+The current results screen for the Policy Maker, we will be implementing more visuals soon.
+
