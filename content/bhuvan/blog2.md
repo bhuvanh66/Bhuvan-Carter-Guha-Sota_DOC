@@ -11,7 +11,7 @@ showAuthorsBadges : true
 ---
 
 ## Blog Post 2
-# First Week in Belgium
+# Second Week in Belgium
 
 ### My Contributions
  - Brainstormed user persona 3 and potential features that would be used to predict
