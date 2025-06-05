@@ -47,25 +47,26 @@ Before testing other assumptions, we decided to check for normality in the resid
 
 #### Assumption Plots
 ##### SP500 Before
-![image] (https://i.ibb.co/6RNxngw7/Screenshot-2025-06-05-at-8-38-59-PM.png)
+![image](https://i.ibb.co/6RNxngw7/Screenshot-2025-06-05-at-8-38-59-PM.png)
 ##### SP500 After
-![image] (https://i.ibb.co/Hf4JkP1L/Screenshot-2025-06-05-at-8-39-04-PM.png)
+![image](https://i.ibb.co/Hf4JkP1L/Screenshot-2025-06-05-at-8-39-04-PM.png)
 As you can see in the first plot, we had very clear patterns in our residual plots and an extremely skewed residual histogram. This is not ideal as it means that our model doesn't meet any of our standards:
 - There is no linearity as the residuals are not evenly distributed around 0
 - There is no homoscedasticity as the variables are clustered around 0
-- There is also heavy autocorrelation as the top right graph clearly moves in a pattern with time
+- There is also heavy autocorrelation as the top right graph clearly moves in a pattern with time.
 **However**, after we added 6 different time lag features, the second plot showed much more promising trends
 It is important to acknowledge that there is still very clear patterns, but there is a *very* clear improvement over the original. The residuals are much more concentrated around 0 and there is less of a pattern with date/time. Additionaly, the plot portrays a bit more homoscedasticity.
 
 **For the model which uses these same features to predict currency exchanges, there would be too many plots to show effectively, so we aggregated them and showed the averages.**
 ##### Currencies Before
-![image] (https://i.ibb.co/nsmvR9Sy/Screenshot-2025-06-05-at-8-38-52-PM.png)
+![image](https://i.ibb.co/nsmvR9Sy/Screenshot-2025-06-05-at-8-38-52-PM.png)
 ##### Currencies After
-![image] (https://i.ibb.co/P7BcW3T/Screenshot-2025-06-05-at-8-38-44-PM.png)
+![image](https://i.ibb.co/P7BcW3T/Screenshot-2025-06-05-at-8-38-44-PM.png)
  As you can see, the same 6 lag strategy worked very effectively on the Currency data as well. In the first plot, there is a large amount of spread about the histogram in addition to clear homoscedasticity and autocorrelation. The second plot seems to mostly mitigate these with the six lags however.
 
 
-### Our integrated ML Model
+### Our Integrated ML Model
+#### *important to note that these are three stitched screenshots, not one page*
 ![image](https://i.ibb.co/ycgMLzGY/Screenshot-2025-06-05-at-8-51-35-PM.png)
 Here, you can see us selecting our features for both of our ML models (One predicting SP500 and exchanges with Monetary Policy and the other predicting GDP Per Capita with Fiscal Policy)
 The frontend has quite a bit of room to be more visually pleasing, but the pages are functional as of now.
