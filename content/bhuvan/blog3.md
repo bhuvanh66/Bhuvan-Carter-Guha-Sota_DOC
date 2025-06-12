@@ -21,7 +21,7 @@ showAuthorsBadges : true
  - Used log normalization and cross validated the model
  - Plotted scatterplots + residual plots for the GDP model + checked assumptions
  - Added GDP model to the backend and created route
- - Added tabs to Streamlit pages and optional country feature
+ - Added tabs to Streamlit pages for Sam Yue and optional country feature
  - Edited About page
 
 # Time in Luxembourg
