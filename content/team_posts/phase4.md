@@ -21,7 +21,7 @@ With the conclusion of phase 4, we have finally finished our app: *Policy Playgr
 
 One our first phase 4 implementations included adding multiple users to each personas. Now a user has the ablity to login as three different people for each of the three personas. The users all feel unique and individual  features like saved notes and policies are only accessible for the respective user who interacted with or created such policy.
 
-![image]"https://i.ibb.co/cc3ZVg6F/Screenshot-2025-06-12-at-11-07-47-PM.png"
+![image](https://i.ibb.co/cc3ZVg6F/Screenshot-2025-06-12-at-11-07-47-PM.png)
 
 #### Policy Maker
 
