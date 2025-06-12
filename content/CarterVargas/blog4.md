@@ -1,9 +1,9 @@
 ---
-title: "App Development First Steps"
+title: "Final Week"
 date: 2025-06-06
 draft: false
 description: "Carter Vargas "
-slug: "post3"   # if you use, needs to be different for eery post
+slug: "post4"   # if you use, needs to be different for eery post
 tags: ["authors", "config", "docs"]
 authors:
   - "cartervargas"
@@ -16,7 +16,7 @@ This past week has been extremely busy with the amount of work and effort we hav
 
 ## Contributions
 
-My main contribution for phase 4 was finishing the Economist Persona and adding front end details. I worked with Bhuvan to expand the generated Policy Data to have three more features, budget, duration, and population. I then helped him implement his cosine similarity model into the persona by improving the existing pages to account for these new changes. I also added a politician contact information button to the view favorites page for additional information. Furthermore, I worked on the homepage to implement the multiple user functionality. Across other pages I worked to improve the visuals through CSS.
+My main contribution for phase 4 was finishing the Economist Persona and adding front end details. I worked with Bhuvan to expand the generated Policy Data to have three more features, budget, duration, and population. I then helped him implement his cosine similarity model into the persona by improving the existing pages to account for these new changes. I also added a politician contact information button to the view favorites page for additional information. Furthermore, I worked on the homepage to implement the multiple user functionality. Across other pages I worked to improve the visuals through CSS. Lastly, I remade the Rest API Matrix.
 
 ## Final Day In Leuven
 
