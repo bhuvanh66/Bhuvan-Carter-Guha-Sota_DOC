@@ -51,6 +51,13 @@ The lobbyist had also undergone major changes from Phase 3. Again, to make this 
 
 Our team has also put in major work to improving the interface and visuals of our application. We completly revamped our color theme with the additon of animations to page headers and new fonts. Despite being limited Streamlit, we used CSS and HTML to make our app look as clean as possible. We strived to make our pages look unique and interesting, but also contain a overlying theme.
 
+
+### Rest API Matric
+
+We took the feedback from phase 3 and updated our route handler names to be nouns while combining similar ones though GET, POST, PUT, and DELETE method types. Below is our updated matrix that counts for the added routes as well.
+
+![image](https://i.ibb.co/n88Z7G8J/Screenshot-2025-06-12-at-10-57-44-PM.png)
+
 ### Conclusion
 
 Overall, we are very proud of the work we have put into this project. We felt we really transformed Policy Playground from a sundry of functionalities to one cohesive and fully implemented application. 
