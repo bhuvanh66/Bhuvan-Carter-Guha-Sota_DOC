@@ -21,8 +21,7 @@ With the conclusion of phase 4, we have finally finished our app: *Policy Playgr
 
 One our first phase 4 implementations included adding multiple users to each personas. Now a user has the ablity to login as three different people for each of the three personas. The users all feel unique and individual  features like saved notes and policies are only accessible for the respective user who interacted with or created such policy.
 
-
-![image]""
+![image]"https://i.ibb.co/cc3ZVg6F/Screenshot-2025-06-12-at-11-07-47-PM.png"
 
 #### Policy Maker
 
@@ -56,28 +55,25 @@ As we mentioned during last phase, we finished training and building our linear 
 #### More Features for the Policy Maker
 When a user is satisfied the policy they have tested, they now have the ability to save this policy and publish it. Published policies can then be accessed by the Economist Persona. To do this, we expanded our database with additional tables such as SavedPolicy and added more routes. The policy maker is also able to delete and modify policies through PUT and DELETE routes. One of the major feedbacks we received from Phase 3 was the lack of cohesion and interconnectedness between the Economist and Policy Maker Personas. By adding these functionality features, we made these two personas more intertwined.
 
-![image]()
+![image](https://i.ibb.co/ynH2S8xb/Screenshot-2025-06-12-at-11-09-40-PM.png)
 
 #### Economist
 
 To expand on the economist, we added another simple machine learning model using cosine similarity. When a user favorites a policy and selects it on the *View Favorite Policy* page, information is displayed on the 5 policies that are most similar to it. This model was trained on three numeric feature: budget spending, duration of enforcement in months, and the population size that it will be affecting. This addition makes the economist role of analyzing policy more effective through the ability of comparison. The fake data generated for this persona remains mostly the same with the addtion of those three features mentioned prior.
 
-![]
+![image](https://i.ibb.co/SDc9yHyn/Screenshot-2025-06-12-at-11-11-31-PM.png)
 
 Other additons to this persona included adding a *Politician Contact Information* button that brings up more information on a policy and more filter cirteria to the *Historical Data Viewer* page.
-
-[]
 
 #### Lobbyist
 
 The lobbyist had also undergone major changes from Phase 3. Again, to make this persona more aligned to the Policy Maker persona, we added the ability for the user to adjust sliders on based features that are directly related to the monetary and fiscal policies. When the Lobbyist creates this note, the same model is used to also produce graphs that are visible by the lobbyist.
 
-[] image
+[image]()
 
 ### Front End Final Details.
 
 Our team has also put in work to improving the interface and visuals of our application. We completly revamped our color theme with the additon of animations to page headers and new fonts. Despite being limited Streamlit, we used CSS and HTML to make our app look as clean as possible. We strived to make our pages look unique and interesting, while also containing a overlying theme.
-
 
 ### Updated Rest API Matrix
 
