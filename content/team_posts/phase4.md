@@ -85,7 +85,7 @@ We took the feedback from phase 3 and updated our route handler names to be noun
 
 With more tables our DDL has also changed. Below is our updated relational table.
 
-![image](https://i.ibb.co/pv11DdkP/Screenshot-2025-06-12-at-11-05-10-PM.png)
+![image](https://i.ibb.co/fdfTqfCM/global-Database.png)
 
 ### Conclusion
 
