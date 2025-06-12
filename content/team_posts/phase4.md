@@ -52,11 +52,17 @@ The lobbyist had also undergone major changes from Phase 3. Again, to make this 
 Our team has also put in major work to improving the interface and visuals of our application. We completly revamped our color theme with the additon of animations to page headers and new fonts. Despite being limited Streamlit, we used CSS and HTML to make our app look as clean as possible. We strived to make our pages look unique and interesting, but also contain a overlying theme.
 
 
-### Rest API Matric
+### Updated Rest API Matrix
 
 We took the feedback from phase 3 and updated our route handler names to be nouns while combining similar ones though GET, POST, PUT, and DELETE method types. Below is our updated matrix that counts for the added routes as well.
 
 ![image](https://i.ibb.co/n88Z7G8J/Screenshot-2025-06-12-at-10-57-44-PM.png)
+
+### Updated DDL
+
+With more tables our DDL has also changed. Below is our updated relational table.
+
+![image](https://i.ibb.co/pv11DdkP/Screenshot-2025-06-12-at-11-05-10-PM.png)
 
 ### Conclusion
 
