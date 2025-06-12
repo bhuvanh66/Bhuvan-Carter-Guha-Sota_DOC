@@ -17,7 +17,7 @@ showAuthorsBadges: true
 
 ### Our Final Product
 
-With the conclusion of phase 4, we have finally finished our app: *Policy Playground*. We have put many combined hours into this project and are very proud of the application we have created. Our two ML models have been fully developed as well as our database structures and functioning Rest API routes.
+With the conclusion of phase 4, we have finally finished our app: *Policy Playground*. We have put many combined hours into this project and are very proud of the application we have created. Our three ML models have been fully developed as well as our database structures and functioning Rest API routes.
 
 One our first phase 4 implementations included adding multiple users to each personas. Now a user has the ablity to login as three different people for each of the three personas. The users all feel unique and individual  features like saved notes and policies are only accessible for the respective user who interacted with or created such policy.
 
@@ -59,7 +59,9 @@ When a user is satisfied the policy they have tested, they now have the ability 
 
 #### Economist
 
-To expand on the economist, we added another simple machine learning model using cosine similarity. When a user favorites a policy and selects it on the *View Favorite Policy* page, information is displayed on the 5 policies that are most similar to it. This model was trained on three numeric feature: budget spending, duration of enforcement in months, and the population size that it will be affecting. This addition makes the economist role of analyzing policy more effective through the ability of comparison. The fake data generated for this persona remains mostly the same with the addtion of those three features mentioned prior.
+To expand on the economist, we added another simple machine learning model using cosine similarity. When a user favorites a policy and selects it on the *View Favorite Policy* page, information is displayed on the 5 policies that are most similar to it. This model was trained on three numeric features: budget spending, duration of enforcement in months, date, and the population size that it will be affecting. It was also trained on country, and topic. In order to standardize the values, we had to one hot encode the categorical features and do min-max normalization for the numeric features. For date we standardized it based on the range of fake policies we had.
+
+This addition makes the economist role of analyzing policy more effective through the ability of comparison. The fake data generated for this persona remains mostly the same with the addtion of those three features mentioned prior.
 
 ![image](https://i.ibb.co/SDc9yHyn/Screenshot-2025-06-12-at-11-11-31-PM.png)
 
@@ -85,7 +87,7 @@ We took the feedback from phase 3 and updated our route handler names to be noun
 
 With more tables our DDL has also changed. Below is our updated relational table.
 
-![image](https://i.ibb.co/fdfTqfCM/global-Database.png)
+![image](https://i.ibb.co/pv11DdkP/Screenshot-2025-06-12-at-11-05-10-PM.png)
 
 ### Conclusion
 
