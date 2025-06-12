@@ -101,6 +101,7 @@ These plots showed a generally linear correlation (with the exception of Russia)
 ![image](https://i.ibb.co/TxPw6Cpx/Screenshot-2025-06-06-at-1-09-08-AM.png)
 ![image](https://i.ibb.co/BVps198D/Screenshot-2025-06-06-at-1-09-43-AM.png)
 
+
 We also plotted a line graph of each feature over time to see if there is a trend over time. We found that there was enough correlation to account for the trend over time.
 
 
