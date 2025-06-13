@@ -9,7 +9,7 @@ authors:
   - "guhamahesh"
 showAuthorsBadges: false
 ---
-## Week 3 in Leuven
+# Week 3 in Leuven
 
 ### My Contributions
 As part of my work in phase 3 of the project, I was fully in charge of creating, improving, checking the assumptions for, and integrating the SP500 & Currency model. I had already created this model last phase; however, the assumptions had all failed. To that end, I had to add lags to the model, which greatly improved the residual plots. Additionally, I created the API routes for the ML model, and page for *Sun Yue*, our Policy Maker user profile. Additionally, I helped my group-mates improve our previous personas and come up with what is hopefully our final project concept.
